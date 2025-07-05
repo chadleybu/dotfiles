@@ -1,0 +1,18 @@
+
+# The following lines were added by compinstall
+
+zstyle ':completion:*' completer _expand _complete _ignored _correct _approximate
+zstyle ':completion:*' completions 1
+zstyle ':completion:*' glob 1
+zstyle ':completion:*' list-colors ''
+zstyle ':completion:*' matcher-list '+' 'm:{[:lower:]}={[:upper:]}' 'm:{[:lower:][:upper:]}={[:upper:][:lower:]}' 'l:|=* r:|=*'
+zstyle ':completion:*' max-errors 1 numeric
+zstyle ':completion:*' original true
+zstyle ':completion:*' preserve-prefix '//[^/]##/'
+zstyle ':completion:*' substitute 1
+zstyle ':completion:*' verbose true
+zstyle :compinstall filename '/home/chad/.zshrc'
+
+autoload -Uz compinit
+compinit
+# End of lines added by compinstall
