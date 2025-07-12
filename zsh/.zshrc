@@ -76,6 +76,9 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
+#ssh-agent.service  
+export SSH_AUTH_SOCK=$XDG_RUNTIME_DIR/ssh-agent.socket
+
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
