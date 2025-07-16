@@ -69,9 +69,9 @@ window#waybar.empty #window {
 }
 
 .module {
-    border: none;
-    border-radius: 6px;
-    background-color: rgba(32, 32, 32, 0.4);
+  /*  border: none;
+    border-radius: 6px;*/
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 .modules-right{
@@ -89,7 +89,9 @@ window#waybar.empty #window {
 }
 
 #custom-updates {
-	background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: none;
+    border-radius: 6px;
 }
 
 #disk {
