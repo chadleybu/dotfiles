@@ -69,8 +69,8 @@ window#waybar.empty #window {
 }
 
 .module {
-  /*  border: none;
-    border-radius: 6px;*/
+    border: none;
+    border-radius: 6px;
     background-color: rgba(0, 0, 0, 0.7);
 }
 
